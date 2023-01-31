@@ -1,17 +1,21 @@
-"use strict";
 class LruCache {
-    constructor(maxSize = 50) {
-        this.cache = new Map();
+    private cache: Map<string, any>;
+    private readonly maxSize: number;
+
+    constructor(maxSize: number = 50) {
+        this.cache = new Map<string, any>();
         this.maxSize = maxSize;
     }
-    set(key, value) {
+
+    public set(key: string, value: any) {
         if (this.cache.size === this.maxSize) {
             const leastRecentlyUsedKey = this.cache.keys().next().value;
             this.cache.delete(leastRecentlyUsedKey);
         }
         this.cache.set(key, value);
     }
-    get(key) {
+
+    public get(key: string) {
         if (!this.cache.has(key)) {
             return undefined;
         }
