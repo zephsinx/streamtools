@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tarot Card Draw</title>
+    <link rel="stylesheet" href="cardDraw.css">
+</head>
+<body>
+<button id="drawButton" class="button" onclick="drawCard()">Draw</button>
+<button id="shuffleButton" class="button" onclick="shuffle()">Shuffle</button>
+<div class="container">
+    <label for="card" class="label transition">no-card</label>
+    <img id="card" src="no-card.jpg" class="transition" alt="Tarot card">
+</div>
+<script src="decks.js"></script>
+<script src="cardDraw.js"></script>
+</body>
+</html>

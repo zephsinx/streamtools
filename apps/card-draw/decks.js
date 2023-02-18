@@ -1,0 +1,96 @@
+﻿const Cups = [
+    { name: "Ace of Cups", img: "images/tarot-cups-01.jpg" },
+    { name: "Two of Cups", img: "images/tarot-cups-02.jpg" },
+    { name: "Three of Cups", img: "images/tarot-cups-03.jpg" },
+    { name: "Four of Cups", img: "images/tarot-cups-04.jpg" },
+    { name: "Five of Cups", img: "images/tarot-cups-05.jpg" },
+    { name: "Six of Cups", img: "images/tarot-cups-06.jpg" },
+    { name: "Seven of Cups", img: "images/tarot-cups-07.jpg" },
+    { name: "Eight of Cups", img: "images/tarot-cups-08.jpg" },
+    { name: "Nine of Cups", img: "images/tarot-cups-09.jpg" },
+    { name: "Ten of Cups", img: "images/tarot-cups-10.jpg" },
+    { name: "Page of Cups", img: "images/tarot-cups-11.jpg" },
+    { name: "Knight of Cups", img: "images/tarot-cups-12.jpg" },
+    { name: "Queen of Cups", img: "images/tarot-cups-13.jpg" },
+    { name: "King of Cups", img: "images/tarot-cups-14.jpg" },
+];
+
+const Wands = [
+    { name: "Ace of Wands", img: "images/tarot-wands-01.jpg" },
+    { name: "Two of Wands", img: "images/tarot-wands-02.jpg" },
+    { name: "Three of Wands", img: "images/tarot-wands-03.jpg" },
+    { name: "Four of Wands", img: "images/tarot-wands-04.jpg" },
+    { name: "Five of Wands", img: "images/tarot-wands-05.jpg" },
+    { name: "Six of Wands", img: "images/tarot-wands-06.jpg" },
+    { name: "Seven of Wands", img: "images/tarot-wands-07.jpg" },
+    { name: "Eight of Wands", img: "images/tarot-wands-08.jpg" },
+    { name: "Nine of Wands", img: "images/tarot-wands-09.jpg" },
+    { name: "Ten of Wands", img: "images/tarot-wands-10.jpg" },
+    { name: "Page of Wands", img: "images/tarot-wands-11.jpg" },
+    { name: "Knight of Wands", img: "images/tarot-wands-12.jpg" },
+    { name: "Queen of Wands", img: "images/tarot-wands-13.jpg" },
+    { name: "King of Wands", img: "images/tarot-wands-14.jpg" },
+];
+
+const Swords = [
+    { name: "Ace of Swords", img: "images/tarot-swords-01.jpg" },
+    { name: "Two of Swords", img: "images/tarot-swords-02.jpg" },
+    { name: "Three of Swords", img: "images/tarot-swords-03.jpg" },
+    { name: "Four of Swords", img: "images/tarot-swords-04.jpg" },
+    { name: "Five of Swords", img: "images/tarot-swords-05.jpg" },
+    { name: "Six of Swords", img: "images/tarot-swords-06.jpg" },
+    { name: "Seven of Swords", img: "images/tarot-swords-07.jpg" },
+    { name: "Eight of Swords", img: "images/tarot-swords-08.jpg" },
+    { name: "Nine of Swords", img: "images/tarot-swords-09.jpg" },
+    { name: "Ten of Swords", img: "images/tarot-swords-10.jpg" },
+    { name: "Page of Swords", img: "images/tarot-swords-11.jpg" },
+    { name: "Knight of Swords", img: "images/tarot-swords-12.jpg" },
+    { name: "Queen of Swords", img: "images/tarot-swords-13.jpg" },
+    { name: "King of Swords", img: "images/tarot-swords-14.jpg" },
+];
+
+const Coins = [
+    { name: "Ace of Coins", img: "images/tarot-coins-01.jpg" },
+    { name: "Two of Coins", img: "images/tarot-coins-02.jpg" },
+    { name: "Three of Coins", img: "images/tarot-coins-03.jpg" },
+    { name: "Four of Coins", img: "images/tarot-coins-04.jpg" },
+    { name: "Five of Coins", img: "images/tarot-coins-05.jpg" },
+    { name: "Six of Coins", img: "images/tarot-coins-06.jpg" },
+    { name: "Seven of Coins", img: "images/tarot-coins-07.jpg" },
+    { name: "Eight of Coins", img: "images/tarot-coins-08.jpg" },
+    { name: "Nine of Coins", img: "images/tarot-coins-09.jpg" },
+    { name: "Ten of Coins", img: "images/tarot-coins-10.jpg" },
+    { name: "Page of Coins", img: "images/tarot-coins-11.jpg" },
+    { name: "Knight of Coins", img: "images/tarot-coins-12.jpg" },
+    { name: "Queen of Coins", img: "images/tarot-coins-13.jpg" },
+    { name: "King of Coins", img: "images/tarot-coins-14.jpg" },
+];
+
+const MajorArcana = [
+    { name: "The Fool", img: "images/tarot-fool.jpg" },
+    { name: "The Magician", img: "images/tarot-magician.jpg" },
+    { name: "The High Priestess", img: "images/tarot-highpriestess.jpg" },
+    { name: "The Empress", img: "images/tarot-empress.jpg" },
+    { name: "The Emperor", img: "images/tarot-emperor.jpg" },
+    { name: "The Hierophant", img: "images/tarot-hierophant.jpg" },
+    { name: "The Lovers", img: "images/tarot-lovers.jpg" },
+    { name: "The Chariot", img: "images/tarot-chariot.jpg" },
+    { name: "Strength", img: "images/tarot-strength.jpg" },
+    { name: "The Hermit", img: "images/tarot-hermit.jpg" },
+    { name: "Wheel of Fortune", img: "images/tarot-wheeloffortune.jpg" },
+    { name: "Justice", img: "images/tarot-justice.jpg" },
+    { name: "The Hanged Man", img: "images/tarot-hangedman.jpg" },
+    { name: "Death", img: "images/tarot-death.jpg" },
+    { name: "Temperance", img: "images/tarot-temperance.jpg" },
+    { name: "The Devil", img: "images/tarot-devil.jpg" },
+    { name: "The Tower", img: "images/tarot-tower.jpg" },
+    { name: "The Star", img: "images/tarot-star.jpg" },
+    { name: "The Moon", img: "images/tarot-moon.jpg" },
+    { name: "The Sun", img: "images/tarot-sun.jpg" },
+    { name: "Judgment", img: "images/tarot-judgment.jpg" },
+    { name: "The World", img: "images/tarot-world.jpg" },
+];
+
+const MinorArcana = Cups.concat(Wands, Swords, Coins);
+
+const TarotDeck = MajorArcana.concat(MinorArcana);
