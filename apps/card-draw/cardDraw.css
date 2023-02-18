@@ -24,6 +24,8 @@
     transition: opacity 1s;
 }
 
-.button {
+.no-user-select {
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }

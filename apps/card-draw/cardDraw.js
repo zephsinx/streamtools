@@ -59,7 +59,6 @@ function toggleCardOpacity() {
 function drawCard() {
     let nextCard = getNextCard();
     card.style.maxHeight = '90%';
-    card.alt = nextCard.name;
     card.src = nextCard.img;
     cardLabel.innerHTML = nextCard.name;
     toggleCardOpacity();

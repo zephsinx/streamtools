@@ -1,15 +1,16 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" charset="UTF-8" content="width=device-width">
     <title>Tarot Card Draw</title>
     <link rel="stylesheet" href="cardDraw.css">
 </head>
 <body>
-<button id="drawButton" class="button" onclick="drawCard()">Draw</button>
-<button id="shuffleButton" class="button" onclick="shuffle()">Shuffle</button>
-<div class="container">
-    <label for="card" class="label transition">no-card</label>
-    <img id="card" src="no-card.jpg" class="transition" alt="Tarot card">
+<button id="drawButton" class="no-user-select" onclick="drawCard()">Draw</button>
+<button id="shuffleButton" class="no-user-select" onclick="shuffle()">Shuffle</button>
+<div class="container no-user-select">
+    <label for="card" class="label transition no-user-select"></label>
+    <img id="card" src="images/no-card.jpg" class="transition no-user-select" alt="Tarot card">
 </div>
 <script src="decks.js"></script>
 <script src="cardDraw.js"></script>
